@@ -1,0 +1,78 @@
+.heroes{
+ 
+    overflow-y:scroll;
+    max-height: 350px;
+    list-style-type: none;
+}
+h2{
+    size: 90;
+    margin-left: 40%;
+}
+.heroes ul{
+    overflow-y:scroll;
+
+}
+.heroes li{
+    display: flex   ;
+}
+
+.heroes button{
+    
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: rgb(83, 79, 79);
+    margin: 1em;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-left: 60px;
+   color: beige;
+    align-self: center;
+    width: fit-content !important;
+}
+
+ button :hover{
+    left:.1em;
+    color:rgb(17, 2, 2);
+    background-color: rgb(159, 149, 168);
+}
+
+
+.heroes button :active{
+    background-color: brown;
+    color: white;
+    
+}
+
+.heroes button .selected:hover{
+    background-color: aqua;
+    color: white;
+    height: 40px;
+}
+
+.heroes button.selected:active{
+    background-color: rgb(235, 144, 25);
+    color: rgb(71, 65, 56);
+}
+
+.heroes .badge{
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #cc3419;
+    line-height: 1em;
+    margin-right:.8em;
+    border-radius: 4px 4px 4px 4px;
+    width: 40px;
+    padding: 5px;
+}
+
+.heroes .name{
+    
+    align-self: center;
+}
+#delbtn{
+width: fit-content !important;
+}

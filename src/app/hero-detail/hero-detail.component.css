@@ -1,0 +1,30 @@
+.detail{
+    align-items: center;
+    font-size: medium;
+    border: 2px solid green;
+    margin-bottom: 10%;
+} 
+
+.detail div{
+    margin-left: 25%;
+    align-self: center;
+}
+
+.detail h2{
+    margin-left: 25%;
+    align-self: center;
+    color: rgb(255, 21, 21);
+}
+
+.detail input{
+
+    font-weight: 700;
+    background-color: rgb(243, 243, 108);
+    margin-left: 0 10px 10px 10px;
+    align-self: center;
+    padding: 4px;
+    text-align: center;
+    font: 2em sans-serif;
+    color: rgb(8, 4, 4);
+    font-size: x-large;
+}
